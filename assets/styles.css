@@ -1,0 +1,9 @@
+body {
+  background-color: #0e1117;
+}
+
+[data-testid="stMetric"] {
+  background: #161b22;
+  padding: 15px;
+  border-radius: 10px;
+}
