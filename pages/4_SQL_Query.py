@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 from db.connection import get_connection
 
-st.header("SQL Playground")
+st.title("SQL Playground")
+st.markdown("---")
 
 query = st.text_area("Write SQL query")
 
